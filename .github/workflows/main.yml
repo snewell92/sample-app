@@ -42,3 +42,8 @@ jobs:
     - name: Install dependencies
       run: pnpm install
 
+    - name: Compile typescript
+      shell: bash
+      run: |
+        npm run build
+
