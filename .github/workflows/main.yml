@@ -47,3 +47,4 @@ jobs:
       run: |
         npm run build
 
+    - run: flyctl deploy --remote-only
